@@ -44,12 +44,14 @@ I learned how to add an image for desktop and how to change it for mobile using 
 
 ```html
 <picture>
-                    <source
+<!-- Here Add all the images with small screen -->
+         <source
                     media="(max-width: 375px)"
                     srcset="images/image-product-mobile.jpg"
                     alt="Product image"
                     >
-                    <img src="images/image-product-desktop.jpg" alt="Product image">
+<!-- Here Add the default image -->
+         <img src="images/image-product-desktop.jpg" alt="Product image">
 </picture>
 ```
 
