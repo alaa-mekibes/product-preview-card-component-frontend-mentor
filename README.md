@@ -12,6 +12,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Useful resources](#useful-resources)
+- [Author](#author)
 
 ## Overview
 
@@ -28,6 +29,7 @@ Users should be able to:
 
 ### Links
 
+- Solution URL: https://www.frontendmentor.io/solutions/product-preview-card-component-S39Fw_wRgJ
 - Live Site URL: https://alaa-mekibes.github.io/product-preview-card-component-challenge5
 
 ## My process
@@ -58,3 +60,7 @@ I learned how to add an image for desktop and how to change it for mobile using 
 ### Useful resources
 
 - [How to display different images in mobile and desktop devices](https://stackoverflow.com/questions/39891785/how-to-display-different-images-in-mobile-and-desktop-devices) - This helped me for adding `<picture>` tag. I really liked this pattern and will use it going forward.
+
+## Author
+
+- Frontend Mentor - [@alaa-mekibes](https://www.frontendmentor.io/profile/alaa-mekibes)
