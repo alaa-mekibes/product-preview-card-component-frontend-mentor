@@ -161,12 +161,15 @@ main .box-right .cart a {
     font-size: var(--Paragraph-size);
     position: relative;
     transition: .2s;
-    margin-top: 20px
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px
 }
 main .box-right .cart a:hover {
     background-color: #1A4031
 }
 main .box-right .cart img {
-    position: absolute;
-    left: 55px
+
 }
