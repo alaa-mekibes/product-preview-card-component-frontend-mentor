@@ -50,7 +50,6 @@ I learned how to add an image for desktop and how to change it for mobile using 
          <source
                     media="(max-width: 375px)"
                     srcset="images/image-product-mobile.jpg"
-                    alt="Product image"
                     >
 <!-- Here Add the default image -->
          <img src="images/image-product-desktop.jpg" alt="Product image">
