@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: https://www.frontendmentor.io/solutions/product-preview-card-component-S39Fw_wRgJ
-- Live Site URL: https://alaa-mekibes.github.io/product-preview-card-component-challenge5
+- Live Site URL: https://alaa-mekibes.github.io/product-preview-card-component-frontend-mentor
 
 ## My process
 
