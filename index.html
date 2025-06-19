@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <title>Product preview card component</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" type="image/x-icon" href="images/favicon-32x32.png">
+        <link rel="icon" type="image/png" href="images/favicon-32x32.png">
         <!-- Goole Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,8 +13,8 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <main>
-            <div class="box-left">
+        <main class="main_container">
+            <article class="box-left">
                 <picture>
                     <source
                     media="(max-width: 375px)"
@@ -22,8 +22,8 @@
                     >
                     <img src="images/image-product-desktop.jpg" alt="Product image">
                 </picture>
-            </div>
-            <div class="box-right">
+            </article>
+            <article class="box-right">
                 <div class="text">
                     <span>Perfume</span>
                     <h1>Gabrielle Essence Eau De Parfum</h1>
@@ -34,9 +34,9 @@
                 </div>
                 <span class="price">$149.99</span>
                 <div class="cart">
-                    <a href="#add-to-cart"><img src="images/icon-cart.svg" alt="cart icon">Add to Cart</a>
+                    <button type="button"><img src="images/icon-cart.svg" alt="cart icon">Add to Cart</button>
                 </div>
-            </div>
+            </article>
         </main>
     </body>
 </html>
