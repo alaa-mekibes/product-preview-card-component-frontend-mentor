@@ -111,6 +111,7 @@ p, span , a {
     position: relative;
     transition: .2s;
     margin-top: 1.25rem;
+    max-width: 90%;
     display: flex;
     align-items: center;
     justify-content: center;
