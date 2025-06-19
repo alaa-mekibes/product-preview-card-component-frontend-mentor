@@ -25,13 +25,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 1.25rem;
     min-height: 100vh
-}
-@media (max-width: 375px) {
-    body {
-        padding: 20px;
-        height: auto
-    }
 }
 
 h1, .price {
@@ -49,28 +44,6 @@ p, span , a {
     flex-basis: 37.5rem;
     border-radius: var(--border-r);
     background-color: var(--White)
-}
-@media (min-width: 22rem) {
-    .main_container {
-        flex-direction: row;
-    }
-    .box-left {
-        flex-basis: 18.75rem;
-    }
-    .box-left picture img{
-    border-top-left-radius: var(--border-r);
-    border-bottom-left-radius: var(--border-r);
-    }
-    .box-right {
-        flex-basis: 18.75rem;
-        padding: 1.875rem
-    }
-    .text p {
-        margin: var(--margin-top-bottom)
-    }
-    .price {
-        margin: var(--margin-top-bottom);
-    }
 }
 .box-left {
     flex-basis: auto;
@@ -145,4 +118,26 @@ p, span , a {
 }
 .cart button:hover {
     background-color: #1A4031
+}
+@media (min-width: 48rem) {
+    .main_container {
+        flex-direction: row;
+    }
+    .box-left {
+        flex-basis: 18.75rem;
+    }
+    .box-left picture img{
+    border-top-left-radius: var(--border-r);
+    border-bottom-left-radius: var(--border-r);
+    }
+    .box-right {
+        flex-basis: 18.75rem;
+        padding: 1.875rem
+    }
+    .text p {
+        margin: var(--margin-top-bottom)
+    }
+    .price {
+        margin: var(--margin-top-bottom);
+    }
 }
